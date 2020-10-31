@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
     const posts = await loadPostsCollection();
     //comes with mondo db
      await posts.insertOne({
-            test: req.body.text,
+            text: req.body.text,
             createdAt: new Date()
      });
 
