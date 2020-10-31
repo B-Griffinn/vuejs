@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-tutorial",
+  "version": "1.0.0",
+  "description": "vuejs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Griffinn/vuejs.git"
+  },
+  "author": "Benjamin Griffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Griffinn/vuejs/issues"
+  },
+  "homepage": "https://github.com/B-Griffinn/vuejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
